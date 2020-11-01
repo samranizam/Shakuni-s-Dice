@@ -41,7 +41,7 @@ document.querySelector('.btn-hold').addEventListener('click',function(){
     scores[activePlayer]+=roundscores;
     document.querySelector('#score-'+activePlayer).textContent=scores[activePlayer];
     
-    if(scores[activePlayer]>=10)
+    if(scores[activePlayer]>=50)
         {
             gamePlaying=false;
             document.querySelector('#name-'+activePlayer).textContent='WINNER!!';
